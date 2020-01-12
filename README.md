@@ -2,6 +2,10 @@
 
 LIVE APP: https://myools.github.io/tv-genie/
 
+
+![library](assets/screenshot-desktop.png)
+
+
 SCREENSHOTS:
 https://github.com/myools/tv-genie/blob/master/assets/screenshot-desktop.PNG?raw=true
 
