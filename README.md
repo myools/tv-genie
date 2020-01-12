@@ -1,4 +1,4 @@
-# tv-genie
+# TV Genie
 
 ## Live App
 https://myools.github.io/tv-genie/
