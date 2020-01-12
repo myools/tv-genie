@@ -1,0 +1,225 @@
+* {
+  box-sizing: border-box;
+}
+
+main {
+ 
+}
+
+h1, form, .results {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#show-summary {
+  padding: 15px;
+}
+
+  ::-webkit-scrollbar {
+        -webkit-appearance: none;
+        width: 7px;
+    }
+    ::-webkit-scrollbar-thumb {
+        border-radius: 4px;
+        background-color: rgba(0,0,0,.5);
+        -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
+    }
+
+body { 
+  background-image: url('assets/gold-background-portrait.png');
+  background-position: center;
+  margin-top: 0px;
+}
+
+form {
+  margin-bottom: 25px;
+}
+
+.show-image, .back-button, .button, button:hover {
+  cursor: pointer;
+}
+
+#show-search {
+  height: 25px;
+}
+
+label, input {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+}
+
+input {
+    font-family: 'Gochi Hand', cursive;
+    font-size: 20px;
+}
+
+.button, .back-button {
+  height: 40px;
+  width: 80px;
+  font-size: 20px;
+  font-family: 'Gochi Hand', cursive;
+  border-radius: 10px;
+  box-shadow: 1px 5px 8px goldenrod;
+  border: none;
+}
+
+.back-button {
+  position: absolute;
+  top: 179px;
+  left: 10px;
+  background-image: url('assets/back-button.png');
+}
+
+.button {
+  background-image:  url('assets/search-button.png');
+}
+
+label {
+  font-size: 20px;
+  font-family: 'Gochi Hand', cursive;
+}
+
+p {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  word-wrap: break-word;
+}
+
+.show-name {
+  font-weight: bold;
+}
+
+.show-details {
+  text-decoration: underline;
+}
+
+.test1 {
+  height: 400px;
+}
+
+#logo {
+  width: 300px;
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+header {
+  margin-bottom: 25px;
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  background-image: url('assets/golden-background.jpg');
+  z-index: 1;
+  box-shadow: 10px 10px 8px goldenrod;
+}
+
+.show-wrapper, .no-img-show-wrapper, .no-img-show-wrapper-push {
+  height: 299px;
+  margin-bottom: 20px;
+}
+
+.results {
+  position: relative;
+  top: 270px;
+}
+
+.show-info {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -20px;
+  margin-bottom: 20px;
+}
+
+.selected-show-name{
+  font-family: 'Roboto', sans-serif;
+  position: relative;
+  top: -125px;
+  font-size: 20px;
+  width: 210px;
+}
+
+.show-name-results {
+  font-family: 'Roboto', sans-serif;
+  position: relative;
+  top: -125px;
+  font-size: 20px;
+  width: 210px;
+  pointer-events:none;
+}
+
+@media only screen and (min-width: 500px){
+
+.show-wrapper, .no-img-show-wrapper, .no-img-show-wrapper-push {
+  display: inline-block;
+  padding: 10px;
+  margin-bottom: 25px;
+}
+
+.no-img-show-wrapper {
+  height: 299px;
+  position: relative;
+  top: 43px;
+  margin-top: -65px;
+}
+
+.no-img-show-wrapper-push {
+  height: 299px;
+  position: relative;
+  top: 66px;
+  margin-top: -65px;
+}
+
+
+
+body { 
+  background-image: url('assets/golden-background.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  margin-top: 0px;
+}
+
+}
+
+@media only screen and (min-width: 875px){
+
+.show-info {
+  float: right;
+  width: 600px;
+  height: 295px;
+  overflow: auto;
+  border: 1px solid black;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 0px;
+}
+
+.selected-show-image {
+  position: relative;
+}
+
+.selected-show-wrapper {
+  width: 825px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+}
+
+.selected-show-name{
+  position: absolute;
+  width: 210px;
+  top: 150px;
+}
+
+}
