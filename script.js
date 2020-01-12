@@ -173,7 +173,7 @@ function displayShows(responseJson){
 
     // change dClassName based off length of show name
     // longer show names get different div class name in order to style properly
-    if (showNameLength > 25){
+    if (showNameLength > 20){
       dClassName = 'no-img-show-wrapper-push';
     }
     else{
