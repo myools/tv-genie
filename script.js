@@ -192,7 +192,7 @@ function displayShows(responseJson){
     // set to shows img url
     imgUrl = responseJson[i].show.image.medium;
     // convert shows img url to https url
-    httpsUrl = imgUrl.replace("http", "https");
+    httpsUrl = imgUrl;
 
     // renders show in display results when image available
     $('.results-wrapper').append(`<div class="show-wrapper"><img class="show-image"  role="button" tabindex="0" id="${i}" src="${httpsUrl}"alt="${responseJson[i].show.name}"/>
