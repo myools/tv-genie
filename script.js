@@ -126,7 +126,7 @@ function handleShowSelection(){
       // if show image is available set its url to default image and render show
       imgUrl = jsonObj[showIndex].show.image.medium;
       // convert default image url to https from http
-      httpsUrl = imgUrl.replace("http", "https");
+      httpsUrl = imgUrl;
 
       imgAvailable = true;
      // renders selected show
